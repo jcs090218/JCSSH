@@ -1,0 +1,13 @@
+# ========================================================================
+# $File: Update_Log.txt $
+# $Date: 2017-12-15 21:18:55 $
+# $Revision: $
+# $Creator: Jen-Chieh Shen $
+# $Notice: See LICENSE.txt for modification and distribution information
+#                   Copyright © 2017 by Shen, Jen-Chieh $
+# ========================================================================
+
+
+2017-12-15
+* First setup project. (JCSSH)
+* progress bar module implemented. (JCSSH)
