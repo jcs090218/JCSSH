@@ -8,6 +8,9 @@
 # ========================================================================
 
 
+2017-12-17
+* compress module implemented. (JCSSH)
+
 2017-12-15
 * First setup project. (JCSSH)
 * progress bar module implemented. (JCSSH)
