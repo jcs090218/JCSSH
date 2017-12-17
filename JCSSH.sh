@@ -12,6 +12,9 @@
 # Include all JCSSH files.
 DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
+# compress
+. "$DIR/src/compress/tar.sh"
+# progress_bar
 . "$DIR/src/progress_bar/progress_bar_1p.sh"
 . "$DIR/src/progress_bar/progress_bar_5p.sh"
 . "$DIR/src/progress_bar/progress_bar_1p_arrow.sh"
