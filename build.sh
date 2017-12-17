@@ -28,7 +28,7 @@ cp "./README.md" "./build/$PROJECT_NAME"
 
 jcs_progress_bar_1p 75 "Compressing files.."
 cd build
-tar -czvf "./$PROJECT_NAME$ZIP_EXT" "$PROJECT_NAME"
+jcs_tar_compress "./$PROJECT_NAME$ZIP_EXT" "$PROJECT_NAME"
 
 jcs_progress_bar_1p 90 "Remove temporary files.."
 rm -r "./$PROJECT_NAME"
