@@ -14,4 +14,6 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/../JCSSH.sh"
 
 
-jcs_tar_extract "./build/JCSSH.tar.gz" "./build"
+jcs_spinner_1p 50 "Cool.."
+
+jcs_spinner_1p 100 "Alright.."
