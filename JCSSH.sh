@@ -19,3 +19,6 @@ if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 . "$DIR/src/progress_bar/progress_bar_5p.sh"
 . "$DIR/src/progress_bar/progress_bar_1p_arrow.sh"
 . "$DIR/src/progress_bar/progress_bar_5p_arrow.sh"
+# spinner
+. "$DIR/src/spinner/spinner_1p.sh"
+. "$DIR/src/spinner/spinner_5p.sh"
