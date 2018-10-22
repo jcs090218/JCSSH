@@ -1,12 +1,5 @@
-# ========================================================================
-# $File: .gitattributes $
-# $Date: 2017-12-15 20:27:28 $
-# $Revision: $
-# $Creator: Jen-Chieh Shen $
-# $Notice: See LICENSE.txt for modification and distribution information
-#                   Copyright © 2017 by Shen, Jen-Chieh $
-# ========================================================================
-
-
 # Set default behavior to automatically normalize line endings.
 * text=auto
+
+# Unix-like line endings
+*.sh text eol=lf
