@@ -8,9 +8,8 @@
 #                   Copyright © 2017 by Shen, Jen-Chieh $
 # ========================================================================
 
-
 #
-# Description : print out executing progress
+# DESCRIPTION: print out executing progress
 #
 # @param PARAM_PROGRESS : current progress 1 ~ 100.
 # @param PARAM_PHASE : current phase descritpion.

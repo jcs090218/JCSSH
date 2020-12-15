@@ -8,10 +8,10 @@
 #                   Copyright © 2017 by Shen, Jen-Chieh $
 # ========================================================================
 
+#
+# DESCRIPTION: print out executing progress
+#
 
-#
-# Description : print out executing progress
-#
 CURRENT_PROGRESS=0
 function jcs_progress_bar_1p_arrow()
 {

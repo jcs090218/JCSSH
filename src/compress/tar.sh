@@ -8,7 +8,6 @@
 #                   Copyright © 2017 by Shen, Jen-Chieh $
 # ========================================================================
 
-
 function jcs_tar_compress()
 {
     PARAM_TAR_DEST=$1;  # output file
@@ -30,6 +29,4 @@ function jcs_tar_extract()
         # extract with output directory.
         tar -zxvf $PARAM_TAR_SRC -C $PARAM_TAR_DEST
     fi
-
-
 }
